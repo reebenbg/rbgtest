@@ -114,4 +114,4 @@ bot.on('error', err =>{
     console.log(err);
 })
 
-bot.login(token);
+bot.login(process.env.TOKEN);
